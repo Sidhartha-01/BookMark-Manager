@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex min-h-screen w-full bg-gray-900 text-white gap-4 p-2 relative">
+            <div class="fixed top-0 left-0 flex items-center justify-center bg-gray-800 opacity-80 min-h-screen w-full">
+            </div> 
+            <div class="fixed top-0 left-0 flex items-center justify-center h-screen w-full">
+                <div class="flex flex-col w-2/6 g-2 bg-gray-900 p-4 rounded">
+                    <div class="flex justify-end">
+                        <a href="/All_Bookmarks">
+                            <svg class="h-6 w-6 text-zinc-500 mb-2"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <form action="/post" method="post">
+                            <input class="px-3 py-2 mb-2 rounded text-red-100 bg-zinc-700 outline-none text-white w-full" type="text" placeholder="Title" name="title">
+                            <input rows="10" cols="30" class="h-full px-3 py-2 mb-2 rounded bg-zinc-700 outline-none text-white w-full" name="link" id="" placeholder="Add Link..">
+                            <!-- <button class="px-3 py-2 bg-blue-400 rounded text-black text-xl w-2/6 ">Submit</button> -->
+                            
+                            <input class="block text-sm px-3 w-40 py-2 bg-blue-500  rounded-md mt-2" type="submit" name="submit" id="" value="Submit">
+                            
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        <!-- </div> -->
+        
+    </div>
+    
+    <!-- <H2 class="w-full min-h-full bg-zinc-900 text-white">HELLO SID</H2> -->
+</body>
+</html>
