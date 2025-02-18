@@ -13,6 +13,7 @@ A fully-functional BookMark-Manager REST API, inclusive of user accounts and aut
 3. Securely stores user passwords by hashing and salting the password before storing it in the database.
 4. Middleware to automatically hash a user’s password before the user is saved to the database.
 5. Authentication token(JWT Token) so that the client doesn’t need to log in every time they want to perform an operation on the server.
+6. Performs all CRUD Operatons
 
 #Actual Page
 ![Screenshot 2025-02-18 144730](https://github.com/user-attachments/assets/3b384ccc-5596-4de4-b01f-d5db5e8cb8f6)
