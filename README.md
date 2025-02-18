@@ -1,4 +1,4 @@
-# Task-Manager
+# BookMark-Manager
 A fully-functional BookMark-Manager REST API, inclusive of user accounts and authentication.
 
 #Tech Stack
